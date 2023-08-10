@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/jingji/book/",
+  base: "/jingji/sp/",
 
   lang: "zh-CN",
   title: "荆棘鸟文学社",
@@ -15,7 +15,4 @@ export default defineUserConfig({
   ],
 
   theme,
-
-  // Enable it with pwa
-  // shouldPrefetch: false,
 });
